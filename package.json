@@ -1,0 +1,40 @@
+{
+  "name": "katou.github.io",
+  "version": "1.0.0",
+  "description": "one blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrs1996/katou.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zrs1996/katou.github.io/issues"
+  },
+  "homepage": "https://github.com/zrs1996/katou.github.io#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "less-loader": "^6.2.0",
+    "vue": "^2.6.11",
+    "vue-style-loader": "^4.1.2",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
